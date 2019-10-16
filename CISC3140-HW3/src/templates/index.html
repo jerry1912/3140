@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>NASA picture of the Day</title>
+    <style>
+        html {
+            min-height: 100%;
+        }
+        body {
+            background: linear-gradient(#005AA7 , #FFFDE4);
+        }
+        ul {
+            text-align: center;
+            list-style-position: inside;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align:center;">Nasa Picture of the Day</h1>
+    <h2 style="text-align:center;">{{date}}</h2>
+    <h3 style="text-align:center;">{{title}}</h3>
+    <p style="text-align:center;"><a href={{imageurl}}><img src={{imageurl}} width="600" height="500"/></a></p>
+    <p style="text-align:center;"><b>Copyright:</b> {{copyright}}</p>
+    <div>
+        <p><b>Description:</b>   {{description}}</p>
+    </div>
+    <p style="text-align:center;"><b>***</b>This website is for study purpose ONLY.<b>***</b></p>
+    <p style="text-align:center;">
+        <strong>
+            <a title="APOD" href="https://apod.nasa.gov/apod/astropix.html">
+                Here is the original website.
+            </a>
+        </strong>
+</body>
+</html>
