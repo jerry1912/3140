@@ -1,0 +1,38 @@
+Microsoft Windows [Version 10.0.17763.379]
+(c) 2018 Microsoft Corporation. All rights reserved.
+
+C:\Users\Jerry>cd..
+
+C:\Users>cd..
+
+C:\>cd sqlite3
+
+C:\sqlite3>sqlite3
+SQLite version 3.30.1 2019-10-10 20:19:45
+Enter ".help" for usage hints.
+Connected to a transient in-memory database.
+Use ".open FILENAME" to reopen on a persistent database.
+sqlite> .mode csv
+sqlite> .import C:/Users/Jerry/Downloads/6078.csv Feedbacks
+sqlite> .mode column
+sqlite> .header on
+sqlite> .output score.txt
+sqlite> select Avg([Presentation was well organized]) as AvgOrganized,
+   ...> Min([Presentation was well organized]) as MinOrganized,
+   ...> Max([Presentation was well organized]) as MaxOrganized
+   ...> from Feedbacks;
+sqlite> select Avg([Speaker spoke clearly and was easy to understand.]) as AvgUnderstand,
+   ...> Min([Speaker spoke clearly and was easy to understand.]) as MinUnderstand,
+   ...> Max([Speaker spoke clearly and was easy to understand.]) as MaxUnderstand
+   ...> from Feedbacks;
+sqlite> select Avg([Presenter was enthusiastic about the topic.]) as AvgEnthusiastic,
+   ...> Min([Presenter was enthusiastic about the topic.]) as MinEnthusiastic,
+   ...> Max([Presenter was enthusiastic about the topic.]) as MaxEnthusiastic
+   ...> from Feedbacks;
+sqlite> select Avg([I learned something new today]) as AvgLearned,
+   ...> Min([I learned something new today]) as MinLearned,
+   ...> Max([I learned something new today]) as MaxLearned
+   ...> from Feedbacks;
+sqlite> .quit
+
+C:\sqlite3>

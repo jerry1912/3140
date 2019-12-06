@@ -1,0 +1,12 @@
+AvgOrganized  MinOrganized  MaxOrganized
+------------  ------------  ------------
+3.8           2             5           
+AvgUnderstand  MinUnderstand  MaxUnderstand
+-------------  -------------  -------------
+3.9            2              5            
+AvgEnthusiastic  MinEnthusiastic  MaxEnthusiastic
+---------------  ---------------  ---------------
+4.3              3                5              
+AvgLearned  MinLearned  MaxLearned
+----------  ----------  ----------
+4.1         2           5         
