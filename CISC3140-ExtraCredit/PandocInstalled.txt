@@ -11,4 +11,12 @@ This is free software; see the source for copying conditions.
 There is no warranty, not even for merchantability or fitness
 for a particular purpose.
 
-C:\Users\Jerry>
+C:\Users\Jerry>cd C:\Users\Jerry\Dropbox\Jerry\Brooklyn college\3140 webapp\CISC3140-HW7
+
+C:\Users\Jerry\Dropbox\Jerry\Brooklyn college\3140 webapp\CISC3140-HW7>cd ..
+
+C:\Users\Jerry\Dropbox\Jerry\Brooklyn college\3140 webapp>cd *HW6
+
+C:\Users\Jerry\Dropbox\Jerry\Brooklyn college\3140 webapp\CISC3140-HW6>pandoc -s -o Reflection.pdf ExtraCreditReflection.md
+
+C:\Users\Jerry\Dropbox\Jerry\Brooklyn college\3140 webapp\CISC3140-HW6>
